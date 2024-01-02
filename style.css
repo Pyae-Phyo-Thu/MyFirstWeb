@@ -1,0 +1,85 @@
+:root {
+    --puple:rgb(147, 42, 165);
+    --myblack: rgb(35, 20, 20);
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(35, 211, 88, 0.649);
+    color: white;
+}
+
+h1{
+    color: var(--puple);
+}
+#box{
+    background:var(--myblack);
+    padding: 20px;
+    margin: 20px auto 30px auto;
+    border: solid var(--puple);
+    border-radius: 20px;
+    position: relative;
+    max-width: 500px;
+}
+.border-rounded{
+    border-radius: 50px;
+}
+
+.text{
+    text-align: center;
+  
+}
+
+.container{
+    padding: 20px;
+    background: var(--myblack);
+    border: solid white 1px;
+    margin: 40px;
+}
+
+.skill{
+    margin: 10px;
+    background-color: rgb(41, 74, 63);
+    border: solid white 1px;
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: start;
+}
+
+.row{
+    flex-direction: row;
+}
+
+img.pfp{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img.html{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img.css{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+hr{
+    border-top: 1px solid rgba(174, 255, 0, 0.975);
+}
+a{
+    color: lightblue;
+    text-decoration:none ;
+}
+a:hover{
+    color: rgb(57, 5, 244);
+}
